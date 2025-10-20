@@ -1,0 +1,15 @@
+\section{Wstęp}
+    \subsection{Założenia}
+        \begin{itemize}
+            \item Pomiar prądu rzędu $10\ nA$,
+            \item Wykorzystanie ditheringu szumem Gaussowskim, 
+            \item Wykorzystanie mikroprocesora STM32F103C8T6 z 12 bitowym ADC,
+            \item Wykorzystanie wzmacniacza pomiarowego INA333.
+        \end{itemize}
+    \subsection{Schemat Blokowy}
+    \begin{figure}[!ht]
+        \centering
+        \scalebox{1}{\input{schematics/BlockDiagram.tex}}
+        \caption{Schemat blokowy układu do pomiaru natężenia prądu.}
+        \label{sch:BD}
+    \end{figure}

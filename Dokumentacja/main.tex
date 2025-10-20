@@ -1,0 +1,158 @@
+\documentclass[12pt]{article}
+\usepackage{anyfontsize}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{polski}
+\usepackage[polish]{babel}
+\usepackage{tabto}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{setspace}
+% \input{verticalPages.tex}
+
+% \usepackage[natbib=true, backend=biber, style=numeric, sorting=none]{biblatex}
+% \addbibresource{references.bib}
+
+% \DeclareBibliographyDriver{article}{
+%     \printnames{author}
+%     \newunit\newblock
+%     \printfield{title}
+%     \newunit\newblock
+%     \usebibmacro{in:}
+%     \printfield{journaltitle}
+%     \newunit\newblock
+%     \printfield{pages}
+%     \newunit\newblock
+%     \printfield{volume}
+%     \newunit
+%     \usebibmacro{parenthesis}
+%     \printfield{year}
+%     \finentry
+% }
+
+\usepackage{indentfirst}
+
+\usepackage{subcaption}
+
+\usepackage{tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{L}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{R}{>{\raggedright\arraybackslash}X}
+\newcommand{\centerY}[2]{\multirow{#1}{*}{#2}}
+
+\usepackage{wrapfig}
+
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\numberwithin{equation}{section}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    urlcolor=blue,
+    linkcolor= black,
+    citecolor = black
+}
+
+\usepackage{graphicx}
+\graphicspath{{./Images/}}
+
+\usepackage{csvsimple}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat= newest}
+
+
+\usepackage{titlesec}
+\titlelabel{\thetitle.\quad}
+% \AddToHook{cmd/section/before}{\clearpage}
+
+\usepackage[european, american currents, americanvoltages, RPvoltages, cute inductor]{circuitikz}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, decorations.markings, arrows}
+\ctikzset{
+    logic ports=ieee,
+    logic ports/scale=0.7,
+}
+
+% \tikzstyle{process} = [rectangle, minimum width=3em, minimum height=2em, text centered, draw=blue, fill=gray!10]
+% \tikzstyle{startend} = [ellipse, minimum width=2em, minimum height=1em, text centered, draw=red, fill=gray!10]
+% \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+% \tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+% \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+% \tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, text width = 2.5cm, draw=black, fill=green!30]
+% \tikzstyle{arrow} = [thick,->,>=stealth]
+
+
+\title{
+    \vspace*{-1.5cm}
+    \includegraphics[width = 0.25\textwidth]{agh_logo.jpg}\\
+    \textbf{Akademia Górniczo-Hutnicza \\im. Stanisława Staszica w Krakowie}\\\vspace{0.5cm}
+    Raport z projektu\\\vspace{0.5cm}
+    \textbf{Układ do pomiaru natężenia prądu poniżej jednego LSB przetwornika A/C}\\\vspace{0.5cm}
+    \small{z przedmiotu}\\\vspace{0.5cm}
+    \huge{\textbf{Analogowe układy peryferyjne w systemach cyfrowych}}\\\vspace{0.5cm}
+    \small{Elektronika i telekomunikacja - Systemy wbudowane, rok II studiów magisterskich}
+}
+\author{Piotr Kowol, Michał Nizioł}
+\date{\vspace{1cm}\today}
+
+\usepackage{titling}
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+
+\newcommand\inlineeqno{\hfill \stepcounter{equation}\ (\theequation)}
+% \newcommand\scheme{\renewcommand{\figurename}{Schemat}}
+% \newcommand\plot{\renewcommand{\figurename}{Wykres}}
+% \newcommand\photo{\renewcommand{\figurename}{Zdjęcie}}
+
+\begin{document}
+    \begin{titlepage}
+        \maketitle
+        \thispagestyle{empty}
+        % \newpage
+        % \ 
+        % \thispagestyle{empty}
+    \end{titlepage}
+    
+    % \pagenumbering{Roman}
+        % \include{shorts.tex}
+        \tableofcontents
+        % \newpage
+        \listoffigures
+        \newpage
+        % \listoftables
+        % \newpage
+    % \pagenumbering{gobble}
+    \input{chapters/wstep.tex}
+    % \input{chapters/wstep.tex}
+    % \input{chapters/zalozenia.tex}
+    % \input{chapters/analiza.tex}
+    % \input{chapters/opisProjektu.tex}
+    % \clearpage
+    % \input{chapters/instrukcja.tex}
+    % \clearpage
+    % \section*{Historia wersji}
+    % \begin{table}[!ht]
+    %     \centering
+    %     \caption{Historia wersji dokumentacji wraz z opisem zmian}
+    %     \begin{tabular}{|c|c|c|}\hline
+    %         Data wydania & Wersja & Opis \\\hline
+    %         15.06.2025 & 1.0.0 & Pierwsza wersja dokumentacji \\\hline
+    %     \end{tabular}
+    % \end{table}
+
+    % \nocite{*}
+    % \bibliographystyle{ieee}
+    % \printbibliography
+
+    % \clearpage
+    % \input{Chapters/Appendix.tex}
+    \vfill
+    \begin{flushright}
+        Piotr Kowol, Michał Nizioł
+    \end{flushright}
+\end{document}
