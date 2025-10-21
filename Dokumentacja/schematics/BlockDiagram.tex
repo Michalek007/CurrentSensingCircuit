@@ -5,23 +5,26 @@
             (0, 0) node[op amp](amp1){}
             (0, -3) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:$V_{REF}$}](REF){}
             (3, -3) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:Noise \\Gen}]{}
-            (6, -1) node[adder] (add) {}
-            (10, -1) node[draw, rectangle, minimum width = 3cm, minimum height = 5cm, label = {[align = center]center:MCU}](MCU){}
-            (10, -6) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:USB}](USB){}
-            (5, -6) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:PSU}](PSU){}
+            (5.5, -1) node[adder] (add) {}
+            (7.5, -1) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:LPF}](LPF){}
+            (12, -1) node[draw, rectangle, minimum width = 3cm, minimum height = 5cm, label = {[align = center]center:MCU}](MCU){}
+            (12, -6) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:USB}](USB){}
+            (7, -6) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:PSU}](PSU){}
             % (add.135) ++ (-1, 1) -- ++ (0.5, 0) -- (add)
-            (add.225) ++ (-1.65, -1) -- ++ (1, 0) -- (add) 
-            (add) -- ++ (2.5, 0)
+            (add.225) ++ (-1.15, -1) -- ++ (0.5, 0) -- (add) 
+            (add) -- ++ (1, 0)
 
             (amp1) ++ (0.3, -0.3) -- ++ (0, -1.7)
-            (amp1.out) -- ++ (4.2, 0) -- (add)
+            (amp1.out) -- ++ (3.7, 0) -- (add)
             (amp1.+) -- ++ (-1, 0) to[/tikz/circuitikz/bipoles/length=20pt, R, l=$R_{meas}$] ++ (0, 1)
             (amp1.-) -- ++ (-1, 0) to[short, -o] ++ (0, 1) node[above]{$in-$}
             (amp1.+) ++ (-1, 0) to[short, -o] ++ (0, -1) node[below]{$in+$}
-            (USB) ++ (0.5, 1) -- ++ (0, 1.5) 
-            (USB) ++ (-0.5, 1) -- ++ (0, 1.5) 
-            (PSU) ++ (1, 0) -- ++ (3, 0)
+            (LPF) ++ (1, 0) -- ++ (2, 0) ++ (-0.75, 0) node[above]{$ADC_{in}$}
+            (USB) ++ (0.5, 1) -- ++ (0, 1.5) ++ (0, -0.75) node[right]{$D-$}
+            (USB) ++ (-0.5, 1) -- ++ (0, 1.5) ++ (0, -0.75) node[left]{$D+$}
+            (PSU) ++ (1, 0) -- ++ (3, 0) ++ (-1, 0) node[above]{$+5\ V$}
+            (PSU) ++ (-1, 0) to[short, -o] ++ (-1, 0) node[above]{$+3.3\ V$}
         ;
-            % wzmacniacz pomiarowy, zrodlo ref, generacja szumu, sumator, MCU, USB, PSU
+            % wzmacniacz pomiarowy, zrodlo ref, generacja szumu, sumator, MCU, USB, PSU, LPF
     \end{tikzpicture}
 \end{subfigure}
