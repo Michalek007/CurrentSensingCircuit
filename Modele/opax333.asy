@@ -1,0 +1,28 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 80 0 112 0
+LINE Normal -64 -80 80 0
+LINE Normal -64 80 80 0
+LINE Normal -64 80 -64 -80
+LINE Normal -64 48 -96 48
+LINE Normal -64 -48 -96 -48
+LINE Normal 0 -44 0 -80
+LINE Normal 0 44 0 80
+SYMATTR Prefix X
+SYMATTR Value OPAx333
+SYMATTR ModelFile ..\Modele\OPAx333.MOD
+PIN -96 -48 LEFT 8
+PINATTR PinName IN+
+PINATTR SpiceOrder 1
+PIN -96 48 LEFT 8
+PINATTR PinName IN-
+PINATTR SpiceOrder 2
+PIN 0 -80 TOP 8
+PINATTR PinName Vcc
+PINATTR SpiceOrder 3
+PIN 0 80 BOTTOM 8
+PINATTR PinName Vee
+PINATTR SpiceOrder 4
+PIN 112 0 RIGHT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5

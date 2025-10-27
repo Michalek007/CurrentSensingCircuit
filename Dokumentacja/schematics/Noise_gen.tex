@@ -1,0 +1,14 @@
+\begin{subfigure}{\textwidth}
+    \hspace{3.5cm}
+    \begin{tikzpicture}
+        \draw
+            (0, 0) node[ground]{} to[zDo, -*, l=$LM336$] ++ (0, 2) coordinate(out)
+            to[R, -o, l=$R_1$, a=$820$] ++ (0, 2) node[above]{$3.3\ V$}
+            (out) to[C, -o, l=$C_1$, a=$100\ nF$] ++ (3, 0) node[above]{$V_{out}$}
+            (out) ++ (3.3, 0) node[circ, scale = 0.6]{}
+            (out) ++ (3.5, 0) node[circ, scale = 0.6]{}
+            (out) ++ (3.7, 0) node[circ, scale = 0.6]{}
+            (out) ++ (5, 0) node[plain mono amp]{$?$}
+        ;
+    \end{tikzpicture}
+\end{subfigure}
