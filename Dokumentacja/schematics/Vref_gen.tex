@@ -7,7 +7,7 @@
             (amp.down) node[ground]{}
             (amp.-) -| ++ (-0.5, 1.5) -| ++ (2.98, -2)
             (amp.out) -- ++ (0.1, 0) to[short, *-o] ++ (1, 0) node[above]{$V_{REF}$}
-            (amp.out) ++ (0.1, -3) node[ground]{} to[C, l=$C_1$, a=$100\ nF$] ++ (0, 2) -- ++ (0, 1)
+            % (amp.out) ++ (0.1, -3) node[ground]{} to[C, l=$C_1$, a=$100\ nF$] ++ (0, 2) -- ++ (0, 1)
             (amp.+) -- ++ (-9, 0) ++ (0, -2) node[ground]{} to[C, l=$C_2$, a=$100\ nF$] ++ (0, 2)
             (amp.+) ++ (-6, -2) node[ground]{} to[C, -*, l=$C_3$, a=$1\ \mu F$] ++ (0, 2)
             (amp.+) ++ (-3, -2) node[ground]{} to[R, -*, l=$R_2$, a=$10\ k\Omega$] ++ (0, 2)
@@ -15,3 +15,5 @@
         ;
     \end{tikzpicture}
 \end{subfigure}
+
+% usunac cap ma wyjsciu op-ampa

@@ -1,0 +1,28 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 64 0 -48 -64
+LINE Normal -48 64 64 0
+LINE Normal -48 -64 -48 64
+LINE Normal -64 -16 -48 -16
+LINE Normal -64 16 -48 16
+LINE Normal 80 0 64 0
+LINE Normal 0 -36 0 -64
+LINE Normal 0 36 0 64
+SYMATTR Prefix X
+SYMATTR Value OPA607
+SYMATTR ModelFile ..\Modele\opa607.lib
+PIN -64 -16 LEFT 8
+PINATTR PinName IN+
+PINATTR SpiceOrder 1
+PIN -64 16 LEFT 8
+PINATTR PinName IN-
+PINATTR SpiceOrder 2
+PIN 80 0 RIGHT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 3
+PIN 0 -64 TOP 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 4
+PIN 0 64 BOTTOM 8
+PINATTR PinName VEE
+PINATTR SpiceOrder 5

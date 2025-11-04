@@ -1,0 +1,28 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 64 0 -48 -64
+LINE Normal -48 64 64 0
+LINE Normal -48 -64 -48 64
+LINE Normal -64 -16 -48 -16
+LINE Normal -64 16 -48 16
+LINE Normal 80 0 64 0
+LINE Normal 0 -36 0 -64
+LINE Normal 0 36 0 64
+SYMATTR Prefix X
+SYMATTR Value TSV99X
+SYMATTR ModelFile ..\Modele\tsv99x_series.MOD
+PIN -64 16 LEFT 8
+PINATTR PinName V-
+PINATTR SpiceOrder 3
+PIN -64 -16 LEFT 8
+PINATTR PinName V+
+PINATTR SpiceOrder 2
+PIN 80 0 RIGHT 8
+PINATTR PinName Vout
+PINATTR SpiceOrder 1
+PIN 0 -64 TOP 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 4
+PIN 0 64 BOTTOM 8
+PINATTR PinName VSS
+PINATTR SpiceOrder 5
