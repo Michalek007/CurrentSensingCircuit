@@ -19,3 +19,8 @@ __pycache__
 *.nav
 *.snm
 *.pdf
+*backups
+*.zip
+*.lck
+*fp-info-cache
+*#auto_saved_files#
