@@ -97,7 +97,7 @@
     \huge{\textbf{Analogowe układy peryferyjne w systemach cyfrowych}}\\\vspace{0.5cm}
     \small{Elektronika i telekomunikacja - Systemy wbudowane, rok II studiów magisterskich}
 }
-\author{Piotr Kowol, Michał Nizioł}
+\author{Piotr Kowol, Piotr Mosurek, Michał Nizioł}
 \date{\vspace{1cm}\today}
 
 \usepackage{titling}
@@ -130,7 +130,7 @@
     \input{chapters/wstep.tex}
     \clearpage
     \input{chapters/schematy.tex}
-    \clearpage
+    % \clearpage
     \input{chapters/symulacje.tex}
     % \input{chapters/wstep.tex}
     % \input{chapters/zalozenia.tex}
@@ -157,6 +157,12 @@
     % \input{Chapters/Appendix.tex}
     \vfill
     \begin{flushright}
-        Piotr Kowol, Michał Nizioł
+        Piotr Kowol, Piotr Mosurek, Michał Nizioł
     \end{flushright}
 \end{document}
+
+% szum w pasmie 200 k - 0.74 mV/sqrt(Hz), pasmo ogranicza INA333 !
+% dodanie wtornika na wyjsciu poprawia ch-ke f - zmniejsz podbicie z ok 10 dB do 3 dB :)
+% wzmocnienie generatora szumu 41 dB, pasmo (75 - 2.38 M) Hz
+% lpf 318 kHz
+% pomiar Vcm - kompensacja uplywu pradu (pomiar + obrobka w sofcie)

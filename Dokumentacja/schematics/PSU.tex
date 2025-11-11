@@ -10,11 +10,11 @@
 
         (U1.west) -- ++(-2,0) coordinate(IN)
         to[C, l=$C_{1}$, a=$10\ \mu$F] (IN |- U1.south) node[ground] {}
-        (IN) to[short, -o] ++ (-1, 0) node[above]{$5V$}
+        (IN) to[short, *-o] ++ (-1, 0) node[above]{$5V$}
 
         (U1.east) -- ++(2,0) coordinate(OUT)
         to[C, l=$C_{2}$, a=$100\ \mu$F] (OUT |- U1.south) node[ground] {}
-        (OUT) to[short, -o] ++ (1, 0) node[above]{$3.3V$}
+        (OUT) to[short, *-o] ++ (1, 0) node[above]{$3.3V$}
 
         ;
     \end{tikzpicture}

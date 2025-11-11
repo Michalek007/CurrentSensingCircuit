@@ -7,22 +7,35 @@
     \end{figure}
     \begin{figure}[!ht]
         \centering
-        \scalebox{1}{\input{schematics/Vref_gen.tex}}
-        \caption{Schemat ideowy źródła napięcia referencyjnego.}
+        \scalebox{1}{\input{schematics/Vref_noise_gen.tex}}
+        \caption{Schemat ideowy źródła napięcia referencyjnego z układem generacji szumu.}
         \label{sch:Vref_gen}
     \end{figure}
     \begin{figure}[!ht]
         \centering
-        \scalebox{1}{\input{schematics/Noise_gen.tex}}
-        \caption{Schemat układu generacji szumu białego.}
-        \label{sch:Noise_gen}
+        \scalebox{1}{\input{schematics/Vcm_measure.tex}}
+        \caption{Schemat do pomiaru napięcia sumacyjnego.}
+        \label{sch:VCM_measure}
     \end{figure}
+    \clearpage
     \begin{figure}[!ht]
         \centering
-        \scalebox{1}{\input{schematics/Sumator.tex}}
-        \caption{Układ sumacyjny dla dodania sygnału pomiarowego i szumu.}
-        \label{sch:sumator}
+        \scalebox{1}{\input{schematics/LPF.tex}}
+        \caption{Schemat pasywnego filtru RC o częstotliwości granicznej $f_g \approx 318\ kHz$.}
+        \label{sch:LPF}
     \end{figure}
+    % \begin{figure}[!ht]
+    %     \centering
+    %     \scalebox{1}{\input{schematics/Noise_gen.tex}}
+    %     \caption{Schemat układu generacji szumu białego.}
+    %     \label{sch:Noise_gen}
+    % \end{figure}
+    % \begin{figure}[!ht]
+    %     \centering
+    %     \scalebox{1}{\input{schematics/Sumator.tex}}
+    %     \caption{Układ sumacyjny dla dodania sygnału pomiarowego i szumu.}
+    %     \label{sch:sumator}
+    % \end{figure}
     \begin{figure}[!ht]
         \centering
         \scalebox{1}{\input{schematics/PSU.tex}}

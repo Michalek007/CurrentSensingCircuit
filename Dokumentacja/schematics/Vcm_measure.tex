@@ -1,0 +1,13 @@
+\begin{subfigure}{\textwidth}
+    \hspace{5.5cm}
+    \begin{tikzpicture}
+        \draw
+            (0, 0) node[op amp](amp1){}
+            (amp1.up) to[short, -o] ++ (0, 0.5) node[above]{$3.3\ V$}
+            (amp1.down) node[ground]{}
+            (amp1.out) |-  ++ (-2, 2) -| (amp1.-)
+            (amp1.+) to[short, -o] ++ (-1, 0) node[above]{$V_{CM}$}
+            (amp1.out) to[short, *-o] ++ (1, 0) node[above]{$V_{CMOUT}$}
+        ;
+    \end{tikzpicture}
+\end{subfigure}

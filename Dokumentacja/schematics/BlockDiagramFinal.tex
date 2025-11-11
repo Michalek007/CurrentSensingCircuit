@@ -3,19 +3,19 @@
     \begin{tikzpicture}
         \draw
             (0, 0) node[op amp](amp1){}
-            (0, -3) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:$V_{REF}$}](REF){}
-            (3, -3) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:Noise \\Gen}]{}
-            (5.5, -1) node[adder] (add) {}
-            (7.5, -1) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:LPF}](LPF){}
-            (12, -1) node[draw, rectangle, minimum width = 3cm, minimum height = 5cm, label = {[align = center]center:MCU}](MCU){}
-            (12, -6) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:USB}](USB){}
-            (7, -6) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:PSU}](PSU){}
+            (0, -3) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:$V_{REF}$ and \\ noise gen}](REF){}
+            % (3, -3) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:Noise \\Gen}]{}
+            % (5.5, -1) node[adder] (add) {}
+            (4.5, 0) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:LPF}](LPF){}
+            (9, 0) node[draw, rectangle, minimum width = 3cm, minimum height = 5cm, label = {[align = center]center:MCU}](MCU){}
+            (9, -5) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:USB}](USB){}
+            (4, -5) node[draw, rectangle, minimum width = 2cm, minimum height = 2cm, label = {[align = center]center:PSU}](PSU){}
             % (add.135) ++ (-1, 1) -- ++ (0.5, 0) -- (add)
-            (add.225) ++ (-1.15, -1) -- ++ (0.5, 0) -- (add) 
-            (add) -- ++ (1, 0)
+            % (add.225) ++ (-1.15, -1) -- ++ (0.5, 0) -- (add) 
+            % (add) -- ++ (1, 0)
 
             (amp1) ++ (0.3, -0.3) -- ++ (0, -1.7)
-            (amp1.out) -- ++ (3.7, 0) -- (add)
+            (LPF) ++ (-1, 0) -- (amp1.out)
             (amp1.+) -- ++ (-1, 0) to[/tikz/circuitikz/bipoles/length=20pt, R, l=$R_{meas}$] ++ (0, 1)
             (amp1.-) -- ++ (-1, 0) to[short, *-o] ++ (0, 1) node[above]{$in-$}
             (amp1.+) ++ (-1, 0) to[short, *-o] ++ (0, -1) node[below]{$in+$}

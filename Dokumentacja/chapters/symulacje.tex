@@ -1,90 +1,189 @@
 \section{Symulacje układów}
-    Podczas symulacji sprawdzono działanie kilku bloków funkcjonalnych, tj. PSU, sumator, generator szumu białego oraz 
+    Podczas symulacji sprawdzono działanie kilku bloków funkcjonalnych, tj. PSU, generator szumu białego oraz 
     wzmacniacz pomiarowy. Symulacja czasowa PSU pozwoliła sprawdzić jak duży będzie przerzut napięcia podczas uruchomiania 
-    układu. Wyniki przedstawiono na rysunku \ref{fig:sym_LM1117}.  
-    Jako sumator postanowiono skorzystać ze schematu z noty AN5537 od ST Microelectronics. Symulacja potwierdziła 
-    wcześniejsze przypuszczenia - układ zasilany niesymetrycznie nie toleruje napięć ujemnych. W związku z tym 
-    iteracyjnie naniesiono potrzebne poprawki, by układ mógł pracować bez zniekształceń z szumem o zerowej składowej stałej. 
-    Wyniki symulacji przedstawia rysunek \ref{fig:sym_sum}. 
+    układu. Wyniki przedstawiono na rysunku \ref{fig:sym_LM1117}.   
     \begin{figure}[!ht]
         \centering
-        \includegraphics[width=\textwidth]{psu_tran.png}
+        \includegraphics[width = \textwidth]{psu_tran.png}
         \caption{Symulacja tran stabilizatora napięcia LM1117-3.3 napięcia wejściowego ($V_{in}$) i wyjściowego ($V_{out}$).}
         \label{fig:sym_LM1117}
     \end{figure}
-    \begin{figure}[!ht]
-        \centering
-        \includegraphics[width=\textwidth]{sumator_dc.png}
-        \caption{Symulacja dc układu sumującego, napięcia wyjściowego ($V_{out}$) od napięcia wejściowego ($V_{in}$).}
-        \label{fig:sym_sum}
-    \end{figure}
+    % \begin{figure}[!ht]
+    %     \centering
+    %     \includegraphics[width = \textwidth]{sumator_dc.png}
+    %     \caption{Symulacja dc układu sumującego, napięcia wyjściowego ($V_{out}$) od napięcia wejściowego ($V_{in}$).}
+    %     \label{fig:sym_sum}
+    % \end{figure}
     
     Podczas symulacji wzmacniacza pomiarowego okazało się, że możliwe będzie zmierzenie prądów o natężeniu $1\ nA$. Czułość 
     wzmacniacza określono na $\frac{1\ mV}{1\ nA}$. Zakres pomiarowy wynosi $\pm 1\ \mu A$, a dopuszczalny zakres napięcia 
     wspólnego, przy maksymalnym prądzie wynosi $\approx 0.7\ V \div \approx 2.8\ V$. Zależność napięcia wyjściowego 
     od prądu wejściowego przedstawiono na wykresach \ref{fig:sym_INA_100n} i \ref{fig:sym_INA_1u}. 
-    Zależność napięcia wyjściowego od wejściowego napięcia wspólnego dla prądu $1\ \mu A$ została przedstawiona na wykresach 
-    \ref{fig:sym_INA_CM} i \ref{fig:sym_INA_CM_follower}. Schemat symulacyjny przedstawiono na rysunku \ref{fig:sym_CM_sch}.
+    Zależność napięcia wyjściowego od wejściowego napięcia wspólnego dla prądu $1\ \mu A$ została przedstawiona na wykresie 
+    \ref{fig:sym_INA_CM_follower}. 
+    % Schemat symulacyjny przedstawiono na rysunku \ref{fig:sym_CM_sch}.
     \begin{figure}[!ht]
         \centering
-        \includegraphics[width=\textwidth]{INA333_1u_range.png}
+        \includegraphics[width = \textwidth]{INA333_1u_range.png}
         \caption{Symulacja parametryczna wzmacniacza pomiarowego w zakresie $\pm 1\ \mu A$.}
         \label{fig:sym_INA_1u}
     \end{figure}
     \begin{figure}[!ht]
         \centering
-        \includegraphics[width=\textwidth]{INA333_100n_range.png}
+        \includegraphics[width = \textwidth]{INA333_100n_range.png}
         \caption{Symulacja parametryczna wzmacniacza pomiarowego w zakresie $\pm 100\ nA$.}
         \label{fig:sym_INA_100n}
     \end{figure}
+    % \begin{figure}[!ht]
+    %     \centering
+    %     \includegraphics[width = \textwidth]{INA333_p1u_cm.png}
+    %     \caption{Symulacja dc wejściowego napięcia wspólnego wzmacniacza pomiarowego dla $I_{meas} = 1\ \mu A$, różnica 
+    %     napięć $\approx 120\ mV$.}
+    %     \label{fig:sym_INA_CM}
+    % \end{figure}
+    % \clearpage
     \begin{figure}[!ht]
         \centering
-        \includegraphics[width=\textwidth]{INA333_p1u_cm.png}
-        \caption{Symulacja dc wejściowego napięcia wspólnego wzmacniacza pomiarowego dla $I_{meas} = 1\ \mu A$, różnica napięć $\approx 120\ mV$.}
-        \label{fig:sym_INA_CM}
-    \end{figure}
-    \clearpage
-    \begin{figure}[!ht]
-        \centering
-        \includegraphics[width=\textwidth]{INA333_p1u_cm_follower.png}
-        \caption{Symulacja dc wejściowego napięcia wspólnego wzmacniacza pomiarowego z buforowaniem $V_{REF}$ dla $I_{meas} = 1\ \mu A$, różnica napięć $\approx 65\ \mu V$.}
+        \includegraphics[width = \textwidth]{INA333_p1u_cm_follower.png}
+        \caption{Symulacja dc wejściowego napięcia wspólnego wzmacniacza pomiarowego dla $I_{meas} = 1\ \mu A$, różnica 
+        napięć $\approx 65\ \mu V$.}
         \label{fig:sym_INA_CM_follower}
     \end{figure}
+
     \begin{figure}[!ht]
         \centering
-        \includegraphics[width=0.7\textwidth]{INA333_cm_sim.png}
-        \caption{Schemat do symulacji $V_{CM}$.}
-        \label{fig:sym_CM_sch}
+        \includegraphics[width = \textwidth]{INA333_K_diff.png}
+        \caption{Wzmocnie różnicowe INA333.}
+        \label{fig:INA333_Kd}
     \end{figure}
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = \textwidth]{INA333_K_ref.png}
+        \caption{Wzmocnienie od wejścia \textit{REF} wzmacniacza pomiarowego.}
+        \label{fig:INA333_Kref}
+    \end{figure}
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = \textwidth]{Noise_gen_out.png}
+        \caption{Charakterystyki częstotliwościowe układu: czerwona - pasmo przenoszenia generatora szumu, zielona - 
+        pasmo przenoszenia na wyjściu INA333, niebieska - pasmo przenoszenia za filtrem LPF z wtórnikiem - UWAGA, bez wtónika 
+        jest podbicie o $\approx 7\ dB$ na wyjściu INA333 przy $f \approx 150\ kHz$.}
+        \label{fig:frequency_charakteristics}
+    \end{figure}
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = \textwidth]{INA333_tran_10m_fft_noise.png}
+        \caption{Transformata fouriera z $10\ ms$ symulacji transient wzmacniacza pomiarowego z generacją szumu na referencji. 
+        Okno fft $100\ Hz$, co daje $\approx 1.65\ \frac{\mu V}{\sqrt{Hz}}$.}
+        \label{fig:INA333_Noise_fft}
+    \end{figure}
+    \begin{table}[!ht]
+        \centering
+        \begin{tabular}{|c|c|c|}\hline
+            parametr & wartość & komentarz \\\hline
+            czułość & $1\ \frac{mV}{nA}$ & czułość układu bez ditheringu \\\hline
+            zakres pomiarowy & $\pm 1\ \mu A$ & - \\\hline
+            zakres napięcia wspólnego & $0.7 \div 2.8\ V$ & - \\\hline
+            częstotliwość graniczna & $30\ Hz$ & ograniczenie od INA333 \\\hline
+            pasmo szumu białego & $100\ Hz \div 200\ kHz$ & górne ograniczenie od wejścia \textit{REF} INA333 \\\hline
+            napięcie szumu & $\approx 0.74\ mV$ & w paśmie $100\ Hz \div 200\ kHz$ \\\hline
+            widmowa gęstość szumu & $\approx 1.65\ \frac{\mu V}{\sqrt{Hz}}$ & - \\\hline
+            częstotliwość próbkowania & $f_S = 1\ MHz$ & z dokumentacji STM32F103C8T6 \\\hline
+            częstotliwość nadpróbkowania & $f_{OVS} = 62.5\ kHz$ & nadpróbkowanie 16 razy \\\hline
+            dodatkowe bity & $+2$ bity & na podstawie AN5537 \\\hline
+            teoretyczna wartość mierzalnego & \multirow{2}{*}{$I_{meas} \approx 250\ pA$} & \multirow{2}{*}{jeśli nie tracimy na ENOB} \\ 
+            prądu przy ditheringu  & & \\\hline
+        \end{tabular}
+    \end{table}
 
-    \subsection{Alternatywne podejście do układu}
+    \clearpage
+    \subsection{Problem $V_{CM}$ - do przedyskutowania}
+        Po przeprowadzeniu dodatkowych symulacji, zauważono, że napięcie sumacyjne może powodować znaczne 
+        upływności przez rezystor polaryzujący wejścia układu pomiarowego. Schemat symulacyjny przedstawiono 
+        na rysunku \ref{fig:Vcm_sch}. Podczas symulacji założono mierzony prąd $I_{meas} = 330\ nA$ i modyfikowano 
+        rezystory dzielnika napięcia w zakresie $0 \div 10\ M\Omega$. Wyniki symulacji przedstawiono na rysunku 
+        \ref{fig:Vcm_sim}. Różnica napięcia wyjściowego w zakresie dopuszczalnego napięcia wspólnego wyniosła 
+        $\approx 100\ mV$, co odpowiada różnicy natężenia prądu $100\ nA$, z tym, że dla napięć większych niż 
+        $V_{REF}$, ta różnica wynosi maksymalnie $17\ mV$. Propozycją rozwiązania problemu jest pomiar 
+        napięcia sumacyjnego i software'owa kompensacja związanych z nim upływności, jednak taka metoda pozwoli 
+        prawidłowo mierzyć prądy rzędu setek $nA$. 
         \begin{figure}[!ht]
             \centering
-            \includegraphics[width = 0.7\textwidth]{Noise_gen_sch.png}
-            \caption{Schemat układu generacji szumu wzmacniaczem TSV992.}
-            \label{fig:sch_noise_gen}
+            \includegraphics[width = 0.7\textwidth]{Vcm_sch.png}
+            \caption{Schemat układu symulacyjnego do kompensacji pradów upływu poprzez pomiar $V_{CM}$.}
+            \label{fig:Vcm_sch}
         \end{figure}
+        \clearpage
         \begin{figure}[!ht]
             \centering
-            \includegraphics[width = \textwidth]{Noise_gen_output.png}
-            \caption{Widmowa gęstość szumu na wyjściu układu generacji szumu.}
-            \label{fig:noise_gen_out}
+            \includegraphics[width = \textwidth]{Vcm_sim.png}
+            \caption{Wyniki symulacji $V_{CM}$ dla prądu $330\ nA$, można zauważyć upływność przez rezystor $R_8$.}
+            \label{fig:Vcm_sim}
         \end{figure}
+
+        Drugim podejściem do problemu jest zmiana napięcia wspólnego podawanego przez rezystor do wejść 
+        wzmacniacza pomiarowego, tak by spadek napięcia na rezystorze był na tyle mały, że prąd upływu 
+        będzie można zaniedbać. Osiągnięto to poprzez dołożenie wtórnika napięciowego i podłączenie jego wyjścia 
+        do rezystora. Wtedy spadek napięcia na rezystorze jest bliski napięciu niezrównoważenia wtórnika. 
+        Schemat układu przedstawiono na rysunku \ref{fig:Vcm_sch_v2}. 
+        Taka modyfikacja napięcia wspólnego nie powinna wpłynąć na pomiar, ze względu na duży CMRR, jednocześnie 
+        umożliwiając przepływ prądów polaryzacji, wynoszących według dokumentacji maksymalnie $\pm 200\ pA$. 
+        Wyniki symulacji przedstawiono na rysunku \ref{fig:Vcm_sim_v2}. Jeśli wejścia nie są nigdzie podłączone, czyli 
+        nie ma zewnętrznego wymuszenia $V_{CM}$, napięcie wspólne silnie zależy od $V_{OS}$ wtórnika i osiąga górną granicę 
+        dopuszczalnego zakresu napięć wspólnych, w przypadku $V_{OS} = 25\ mV$, a przy $V_{OS} = -200\ \mu V$, 
+        $V_{CM} \approx 1.59\ V$, co jest bliskie $V_{REF}$. Z powyższych rozważań wynika, że wtórnik powinien mieć 
+        małe napięcie niezrównoważenia. 
         \begin{figure}[!ht]
             \centering
-            \includegraphics[width = 0.7\textwidth]{INA_noise_gen.png}
-            \caption{Wzmacniacz pomiarowy z szumem doprowadzonym do wejścia \textit{REF}.}
-            \label{fig:sch_INA333_noise}
+            \includegraphics[width = 0.7\textwidth]{Vcm_sch_v2.png}
+            \caption{Schemat układu symulacyjnego do kompensacji prądów upływu po stronie analogowej.}
+            \label{fig:Vcm_sch_v2}
         \end{figure}
+        \clearpage
         \begin{figure}[!ht]
             \centering
-            \includegraphics[width = \textwidth]{INA_noise.png}
-            \caption{Widmowa gęstość szumu na wyjściu wzmacniacza pomiarowego z szumem dodanym do referencji.}
-            \label{fig:INA333_output_noise}
+            \includegraphics[width = \textwidth]{Vcm_sim_v2.png}
+            \caption{Wyniki symulacji $V_{CM}$ dla prądu $330\ nA$ z kompensacją, upływność przez $R_8$ wynosi $\approx 2.5\ nA$, 
+            przy $V_{OS}$ wtórnika wynoszącym $25\ mV$.}
+            \label{fig:Vcm_sim_v2}
         \end{figure}
-        \begin{figure}[!ht]
-            \centering
-            \includegraphics[width = \textwidth]{INA_noise_zoom.png}
-            \caption{Zbliżenie na "interesujący" fragment charakterystyki gęstości szumu wzmacniacza pomiarowego.}
-            \label{fig:INA333_output_n_zoom}
-        \end{figure}
+    % \begin{figure}[!ht]
+    %     \centering
+    %     \includegraphics[width=0.7\textwidth]{INA333_cm_sim.png}
+    %     \caption{Schemat do symulacji $V_{CM}$.}
+    %     \label{fig:sym_CM_sch}
+    % \end{figure}
+
+    % \clearpage
+    % \subsection{Alternatywne podejście do układu}
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = 0.7\textwidth]{Noise_gen_sch.png}
+    %         \caption{Schemat układu generacji szumu wzmacniaczem TSV992.}
+    %         \label{fig:sch_noise_gen}
+    %     \end{figure}
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = \textwidth]{Noise_gen_output.png}
+    %         \caption{Widmowa gęstość szumu na wyjściu układu generacji szumu.}
+    %         \label{fig:noise_gen_out}
+    %     \end{figure}
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = 0.7\textwidth]{INA_noise_gen.png}
+    %         \caption{Wzmacniacz pomiarowy z szumem doprowadzonym do wejścia \textit{REF}.}
+    %         \label{fig:sch_INA333_noise}
+    %     \end{figure}
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = \textwidth]{INA_noise.png}
+    %         \caption{Widmowa gęstość szumu na wyjściu wzmacniacza pomiarowego z szumem dodanym do referencji.}
+    %         \label{fig:INA333_output_noise}
+    %     \end{figure}
+    %     \clearpage
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = \textwidth]{INA_noise_zoom.png}
+    %         \caption{Zbliżenie na "interesujący" fragment charakterystyki gęstości szumu wzmacniacza pomiarowego.}
+    %         \label{fig:INA333_output_n_zoom}
+    %     \end{figure}
