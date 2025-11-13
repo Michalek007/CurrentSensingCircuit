@@ -1,8 +1,14 @@
 \begin{subfigure}{\textwidth}
-    \hspace{6.5cm}
+    \hspace{4.5cm}
     \begin{tikzpicture}
         \draw
-            (0, 0) node[above]{$V_{IN}$} to[R, l=$R_1$, l=$50\ \Omega$, o-] ++ (2, 0) coordinate(Vout) to[short, *-o] ++ (1, 0) node[above]{$V_{OUT}$}
+            (0, 0) node[op amp](amp1){}
+            (amp1.up) to[short, -o] ++ (0, 0.5) node[above]{$3.3\ V$}
+            (amp1.down) node[ground]{}
+            (amp1.out) |-  ++ (-2, 2) -| (amp1.-)
+            (amp1.+) to[short, -o] ++ (-1, 0) node[above]{$V_{IN}$}
+            % (amp1.out) to[short, *-o] ++ (1, 0) node[above]{$V_{CMOUT}$}
+            (amp1.out) to[R, l=$R_1$, l=$50\ \Omega$, *-] ++ (2, 0) coordinate(Vout) to[short, *-o] ++ (1, 0) node[above]{$V_{OUT}$}
             (Vout) to[C, l=$C_1$, a=$10\ nF$] ++ (0, -2) node[ground]{}
         ;
     \end{tikzpicture}

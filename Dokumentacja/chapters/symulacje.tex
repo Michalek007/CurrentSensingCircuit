@@ -96,57 +96,58 @@
         \end{tabular}
     \end{table}
 
-    \clearpage
-    \subsection{Problem $V_{CM}$ - do przedyskutowania}
-        Po przeprowadzeniu dodatkowych symulacji, zauważono, że napięcie sumacyjne może powodować znaczne 
-        upływności przez rezystor polaryzujący wejścia układu pomiarowego. Schemat symulacyjny przedstawiono 
-        na rysunku \ref{fig:Vcm_sch}. Podczas symulacji założono mierzony prąd $I_{meas} = 330\ nA$ i modyfikowano 
-        rezystory dzielnika napięcia w zakresie $0 \div 10\ M\Omega$. Wyniki symulacji przedstawiono na rysunku 
-        \ref{fig:Vcm_sim}. Różnica napięcia wyjściowego w zakresie dopuszczalnego napięcia wspólnego wyniosła 
-        $\approx 100\ mV$, co odpowiada różnicy natężenia prądu $100\ nA$, z tym, że dla napięć większych niż 
-        $V_{REF}$, ta różnica wynosi maksymalnie $17\ mV$. Propozycją rozwiązania problemu jest pomiar 
-        napięcia sumacyjnego i software'owa kompensacja związanych z nim upływności, jednak taka metoda pozwoli 
-        prawidłowo mierzyć prądy rzędu setek $nA$. 
-        \begin{figure}[!ht]
-            \centering
-            \includegraphics[width = 0.7\textwidth]{Vcm_sch.png}
-            \caption{Schemat układu symulacyjnego do kompensacji pradów upływu poprzez pomiar $V_{CM}$.}
-            \label{fig:Vcm_sch}
-        \end{figure}
-        \clearpage
-        \begin{figure}[!ht]
-            \centering
-            \includegraphics[width = \textwidth]{Vcm_sim.png}
-            \caption{Wyniki symulacji $V_{CM}$ dla prądu $330\ nA$, można zauważyć upływność przez rezystor $R_8$.}
-            \label{fig:Vcm_sim}
-        \end{figure}
+    % \clearpage
+    % \subsection{Problem $V_{CM}$ - do przedyskutowania}
+    %     Po przeprowadzeniu dodatkowych symulacji, zauważono, że napięcie sumacyjne może powodować znaczne 
+    %     upływności przez rezystor polaryzujący wejścia układu pomiarowego. Schemat symulacyjny przedstawiono 
+    %     na rysunku \ref{fig:Vcm_sch}. Podczas symulacji założono mierzony prąd $I_{meas} = 330\ nA$ i modyfikowano 
+    %     rezystory dzielnika napięcia w zakresie $0 \div 10\ M\Omega$. Wyniki symulacji przedstawiono na rysunku 
+    %     \ref{fig:Vcm_sim}. Różnica napięcia wyjściowego w zakresie dopuszczalnego napięcia wspólnego wyniosła 
+    %     $\approx 100\ mV$, co odpowiada różnicy natężenia prądu $100\ nA$, z tym, że dla napięć większych niż 
+    %     $V_{REF}$, ta różnica wynosi maksymalnie $17\ mV$. Propozycją rozwiązania problemu jest pomiar 
+    %     napięcia sumacyjnego i software'owa kompensacja związanych z nim upływności, jednak taka metoda pozwoli 
+    %     prawidłowo mierzyć prądy rzędu setek $nA$. 
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = 0.7\textwidth]{Vcm_sch.png}
+    %         \caption{Schemat układu symulacyjnego do kompensacji pradów upływu poprzez pomiar $V_{CM}$.}
+    %         \label{fig:Vcm_sch}
+    %     \end{figure}
+    %     \clearpage
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = \textwidth]{Vcm_sim.png}
+    %         \caption{Wyniki symulacji $V_{CM}$ dla prądu $330\ nA$, można zauważyć upływność przez rezystor $R_8$.}
+    %         \label{fig:Vcm_sim}
+    %     \end{figure}
 
-        Drugim podejściem do problemu jest zmiana napięcia wspólnego podawanego przez rezystor do wejść 
-        wzmacniacza pomiarowego, tak by spadek napięcia na rezystorze był na tyle mały, że prąd upływu 
-        będzie można zaniedbać. Osiągnięto to poprzez dołożenie wtórnika napięciowego i podłączenie jego wyjścia 
-        do rezystora. Wtedy spadek napięcia na rezystorze jest bliski napięciu niezrównoważenia wtórnika. 
-        Schemat układu przedstawiono na rysunku \ref{fig:Vcm_sch_v2}. 
-        Taka modyfikacja napięcia wspólnego nie powinna wpłynąć na pomiar, ze względu na duży CMRR, jednocześnie 
-        umożliwiając przepływ prądów polaryzacji, wynoszących według dokumentacji maksymalnie $\pm 200\ pA$. 
-        Wyniki symulacji przedstawiono na rysunku \ref{fig:Vcm_sim_v2}. Jeśli wejścia nie są nigdzie podłączone, czyli 
-        nie ma zewnętrznego wymuszenia $V_{CM}$, napięcie wspólne silnie zależy od $V_{OS}$ wtórnika i osiąga górną granicę 
-        dopuszczalnego zakresu napięć wspólnych, w przypadku $V_{OS} = 25\ mV$, a przy $V_{OS} = -200\ \mu V$, 
-        $V_{CM} \approx 1.59\ V$, co jest bliskie $V_{REF}$. Z powyższych rozważań wynika, że wtórnik powinien mieć 
-        małe napięcie niezrównoważenia. 
-        \begin{figure}[!ht]
-            \centering
-            \includegraphics[width = 0.7\textwidth]{Vcm_sch_v2.png}
-            \caption{Schemat układu symulacyjnego do kompensacji prądów upływu po stronie analogowej.}
-            \label{fig:Vcm_sch_v2}
-        \end{figure}
-        \clearpage
-        \begin{figure}[!ht]
-            \centering
-            \includegraphics[width = \textwidth]{Vcm_sim_v2.png}
-            \caption{Wyniki symulacji $V_{CM}$ dla prądu $330\ nA$ z kompensacją, upływność przez $R_8$ wynosi $\approx 2.5\ nA$, 
-            przy $V_{OS}$ wtórnika wynoszącym $25\ mV$.}
-            \label{fig:Vcm_sim_v2}
-        \end{figure}
+    %     Drugim podejściem do problemu jest zmiana napięcia wspólnego podawanego przez rezystor do wejść 
+    %     wzmacniacza pomiarowego, tak by spadek napięcia na rezystorze był na tyle mały, że prąd upływu 
+    %     będzie można zaniedbać. Osiągnięto to poprzez dołożenie wtórnika napięciowego i podłączenie jego wyjścia 
+    %     do rezystora. Wtedy spadek napięcia na rezystorze jest bliski napięciu niezrównoważenia wtórnika. 
+    %     Schemat układu przedstawiono na rysunku \ref{fig:Vcm_sch_v2}. 
+    %     Taka modyfikacja napięcia wspólnego nie powinna wpłynąć na pomiar, ze względu na duży CMRR, jednocześnie 
+    %     umożliwiając przepływ prądów polaryzacji, wynoszących według dokumentacji maksymalnie $\pm 200\ pA$. 
+    %     Wyniki symulacji przedstawiono na rysunku \ref{fig:Vcm_sim_v2}. Jeśli wejścia nie są nigdzie podłączone, czyli 
+    %     nie ma zewnętrznego wymuszenia $V_{CM}$, napięcie wspólne silnie zależy od $V_{OS}$ wtórnika i osiąga górną granicę 
+    %     dopuszczalnego zakresu napięć wspólnych, w przypadku $V_{OS} = 25\ mV$, a przy $V_{OS} = -200\ \mu V$, 
+    %     $V_{CM} \approx 1.59\ V$, co jest bliskie $V_{REF}$. Z powyższych rozważań wynika, że wtórnik powinien mieć 
+    %     małe napięcie niezrównoważenia. 
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = 0.7\textwidth]{Vcm_sch_v2.png}
+    %         \caption{Schemat układu symulacyjnego do kompensacji prądów upływu po stronie analogowej.}
+    %         \label{fig:Vcm_sch_v2}
+    %     \end{figure}
+    %     \clearpage
+    %     \begin{figure}[!ht]
+    %         \centering
+    %         \includegraphics[width = \textwidth]{Vcm_sim_v2.png}
+    %         \caption{Wyniki symulacji $V_{CM}$ dla prądu $330\ nA$ z kompensacją, upływność przez $R_8$ wynosi $\approx 2.5\ nA$, 
+    %         przy $V_{OS}$ wtórnika wynoszącym $25\ mV$.}
+    %         \label{fig:Vcm_sim_v2}
+    %     \end{figure}
+    
     % \begin{figure}[!ht]
     %     \centering
     %     \includegraphics[width=0.7\textwidth]{INA333_cm_sim.png}
