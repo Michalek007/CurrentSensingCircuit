@@ -4912,6 +4912,26 @@
 		)
 		(uuid "08843bae-c855-4023-bd9b-f7a157ec6c9c")
 	)
+	(text "R3 do usuniecia"
+		(exclude_from_sim no)
+		(at 48.26 43.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b2dce66-2a75-441b-b8f3-d4a6d804c919")
+	)
+	(text "brakuje rezonatora kwarcowego: HSE = 1-25 MHz, LSE = 32.768 kHz\nkwarc HSE ma wieksza stabilnosc f niz wewnetrzny RC"
+		(exclude_from_sim no)
+		(at 265.938 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1648d619-4315-4290-92d3-e202d3a55603")
+	)
 	(text "Stabilizator napięcia 3V3\n"
 		(exclude_from_sim no)
 		(at 84.836 177.546 0)
@@ -4932,6 +4952,46 @@
 		)
 		(uuid "202305bb-2367-421d-a994-610c875bcca6")
 	)
+	(text "to zostawie Michalowi do przejrzenia"
+		(exclude_from_sim no)
+		(at 224.282 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5af21bec-9bfa-4d2b-95d5-6c9cb043cab3")
+	)
+	(text "diody ESD na D+ i D-"
+		(exclude_from_sim no)
+		(at 267.716 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "719b9947-5f7e-42d4-9c2b-ace45c1b20a4")
+	)
+	(text "+ dzielnik rezystancyjny i cap, zgodnie z doc dla wersji adj."
+		(exclude_from_sim no)
+		(at 102.87 171.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c3b188c-a2aa-4943-a484-4d9fec61f66e")
+	)
+	(text "R8 5.1k + pot 10k"
+		(exclude_from_sim no)
+		(at 101.092 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e45ca0f-3ce5-4c87-a683-ef04d12950c0")
+	)
 	(text "SWD CONNECTOR\n\n"
 		(exclude_from_sim no)
 		(at 247.65 155.702 0)
@@ -4942,6 +5002,16 @@
 		)
 		(uuid "8826d3ac-fc14-4393-85c7-5184b0fc89db")
 	)
+	(text "shield podpiac do masy przez rezystor"
+		(exclude_from_sim no)
+		(at 32.766 180.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98932107-dec3-4dca-b472-b4bfd35ca96e")
+	)
 	(text "BOOT CONNECTOR\n\n"
 		(exclude_from_sim no)
 		(at 200.152 153.416 0)
@@ -4951,6 +5021,56 @@
 			)
 		)
 		(uuid "98fecca5-8987-4f94-82c1-cc4d08b8f9ca")
+	)
+	(text "decap dla kazdej pary VDD-VSS procka i wzmacniaczy\n-przy procku zmiensza szpilki na zasilaniu od przelaczania ukladow cyfrowych\n-przy wzmacniaczach poprawia PSRR"
+		(exclude_from_sim no)
+		(at 268.478 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b97fb3c4-187f-47ac-b371-b2f2fe3f8d73")
+	)
+	(text "moze wystarczy jeden potencjometr?\n"
+		(exclude_from_sim no)
+		(at 19.558 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba96df2f-872d-4100-96dc-6ea6eb8192b2")
+	)
+	(text "+ R szeregowo z przyciskiem, 100 wystarczy"
+		(exclude_from_sim no)
+		(at 146.812 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d3625e20-3870-44bb-a837-94d7567a8c32")
+	)
+	(text "R5 5.1k + pot 10k"
+		(exclude_from_sim no)
+		(at 63.754 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb89cfa3-b30c-4cdf-8eab-a03e3ac0216b")
+	)
+	(text "nie lepiej podlaczyc nieuzywane porty do dwoch wiekszych \nzlaczy zamiast rozbijac je na kilka malych?"
+		(exclude_from_sim no)
+		(at 270.51 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "edd66260-b8fa-48cb-936b-eb9dcaca6f05")
 	)
 	(text "Filtr RC, fg ≈ 318 kHz."
 		(exclude_from_sim no)
