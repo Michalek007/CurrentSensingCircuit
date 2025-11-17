@@ -4952,15 +4952,45 @@
 		)
 		(uuid "202305bb-2367-421d-a994-610c875bcca6")
 	)
-	(text "to zostawie Michalowi do przejrzenia"
+	(text "BOOT0 git jeśli chcemy mieć możliwość programowania przez UART\nwtedy trzeba też piny TX i RX wyprowadzić (PA9 i PA10)\njeśli nie, to podpięty do masy przez rezystor 10k"
 		(exclude_from_sim no)
-		(at 224.282 156.718 0)
+		(at 200.152 159.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "5af21bec-9bfa-4d2b-95d5-6c9cb043cab3")
+		(uuid "31aec206-2f8f-4e3e-b5dd-6f621ae45dcb")
+	)
+	(text "zasilanie wzmacniacza na odwrót\n"
+		(exclude_from_sim no)
+		(at 129.286 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "511b93a0-a94b-42bf-bb31-e6bd1a77ea82")
+	)
+	(text "R16 i R17 do usunięcia\n"
+		(exclude_from_sim no)
+		(at 260.604 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60c83e0d-57c0-40d0-a9c6-0331fc5b4c76")
+	)
+	(text "z BOOT1 nie będziemy korzystać\nma być podciągnięty do masy przez rezystor 10k"
+		(exclude_from_sim no)
+		(at 211.836 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "654b9d4c-c969-491a-a1e2-c4330d234d26")
 	)
 	(text "diody ESD na D+ i D-"
 		(exclude_from_sim no)
@@ -5002,6 +5032,16 @@
 		)
 		(uuid "8826d3ac-fc14-4393-85c7-5184b0fc89db")
 	)
+	(text "zgodnie z datasheetem 100u na wyjściu"
+		(exclude_from_sim no)
+		(at 90.678 142.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b0357d8-457d-4ce0-ab04-b90ff925a2c7")
+	)
 	(text "shield podpiac do masy przez rezystor"
 		(exclude_from_sim no)
 		(at 32.766 180.086 0)
@@ -5021,6 +5061,26 @@
 			)
 		)
 		(uuid "98fecca5-8987-4f94-82c1-cc4d08b8f9ca")
+	)
+	(text "ID powinno być floating (nasz procek będzie pracował tylko w trybie Device)\n"
+		(exclude_from_sim no)
+		(at 51.054 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a13de74e-139a-4ce2-a50e-d2588b9803b2")
+	)
+	(text "USB_D+ musi być podciągnięte do 3.3V przez rezystor 1.5k"
+		(exclude_from_sim no)
+		(at 41.148 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b41c7b89-88dd-447e-a4c3-7b537e3179e0")
 	)
 	(text "decap dla kazdej pary VDD-VSS procka i wzmacniaczy\n-przy procku zmiensza szpilki na zasilaniu od przelaczania ukladow cyfrowych\n-przy wzmacniaczach poprawia PSRR"
 		(exclude_from_sim no)
@@ -5042,6 +5102,16 @@
 		)
 		(uuid "ba96df2f-872d-4100-96dc-6ea6eb8192b2")
 	)
+	(text "zasilanie wzmacniaczy na odwrót\n"
+		(exclude_from_sim no)
+		(at 103.378 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3f10e8a-3682-46ba-8c67-f880c82ec487")
+	)
 	(text "+ R szeregowo z przyciskiem, 100 wystarczy"
 		(exclude_from_sim no)
 		(at 146.812 151.13 0)
@@ -5051,6 +5121,16 @@
 			)
 		)
 		(uuid "d3625e20-3870-44bb-a837-94d7567a8c32")
+	)
+	(text "+1 potrzebne cztery kondensatory 100n dla procka\n"
+		(exclude_from_sim no)
+		(at 296.672 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb4c28d0-371e-44e6-af10-47634d8d04cd")
 	)
 	(text "R5 5.1k + pot 10k"
 		(exclude_from_sim no)
@@ -5071,6 +5151,16 @@
 			)
 		)
 		(uuid "edd66260-b8fa-48cb-936b-eb9dcaca6f05")
+	)
+	(text "z LSE nie będziemy korzystać, ale HSE jest konieczny (PD0 i PD1)\n\n"
+		(exclude_from_sim no)
+		(at 266.7 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f113e6f9-cd97-4d51-89a1-78c23ab88262")
 	)
 	(text "Filtr RC, fg ≈ 318 kHz."
 		(exclude_from_sim no)
