@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 9 -16 -7 -16
+LINE Normal 9 16 -7 16
+LINE Normal -11 0 -32 0
+LINE Normal 9 0 32 0
+CIRCLE Normal 5 16 13 -16
+ARC Normal -3 -16 -11 16 -7 -26 -7 32
+SYMATTR ModelFile ..\Modele\BLM21BB050SN1.lib
+SYMATTR Value BLM21BB050SN1
+SYMATTR Prefix X1
+PIN -32 0 NONE 8
+PINATTR PinName port1
+PINATTR SpiceOrder 1
+PIN 32 0 NONE 8
+PINATTR PinName port2
+PINATTR SpiceOrder 2
