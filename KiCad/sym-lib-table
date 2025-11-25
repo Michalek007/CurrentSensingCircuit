@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CurrentSensingCircuitLib")(type "KiCad")(uri "${KIPRJMOD}/CurrentSensingCircuitLib.kicad_sym")(options "")(descr ""))
+)

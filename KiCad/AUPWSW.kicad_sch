@@ -3176,6 +3176,226 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CurrentSensingCircuitLib:TSV992IDT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TSV992IDT_0_1"
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 10.16 5.08) (xy 0 0) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TSV992IDT_1_1"
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -2.54 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TSV992IDT_2_1"
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -6079,6 +6299,226 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TSV992IDT_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TSV992IDT_1_0_1"
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 10.16 5.08) (xy 0 0) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TSV992IDT_1_1_1"
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -2.54 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TSV992IDT_1_2_1"
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -6511,26 +6951,6 @@
 		)
 		(uuid "b93d3be3-0d21-4710-a9ce-159f95cc8c56")
 	)
-	(text "decap dla kazdej pary VDD-VSS procka i wzmacniaczy\n-przy procku zmiensza szpilki na zasilaniu od przelaczania ukladow cyfrowych\n-przy wzmacniaczach poprawia PSRR"
-		(exclude_from_sim no)
-		(at 249.174 160.528 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b97fb3c4-187f-47ac-b371-b2f2fe3f8d73")
-	)
-	(text "Szczegolowe wartosci beda dodane po wybraniu Q\n"
-		(exclude_from_sim no)
-		(at 164.338 26.416 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dccde01e-1c62-4c1e-8f8e-788cdf2f32fd")
-	)
 	(text "Filtr RC, fg ≈ 318 kHz."
 		(exclude_from_sim no)
 		(at 92.964 56.388 0)
@@ -6540,18 +6960,6 @@
 			)
 		)
 		(uuid "f69b9d4d-c8af-403e-a302-f234d450245e")
-	)
-	(junction
-		(at 158.75 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "048c730d-7c8f-40cf-a339-61bea63ee1f3")
-	)
-	(junction
-		(at 166.37 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07f436f2-c100-475e-bbd5-43901a5e3e2d")
 	)
 	(junction
 		(at 274.32 133.35)
@@ -6600,12 +7008,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2950cb2d-731d-4f3e-8a5e-ed063ad2f89c")
-	)
-	(junction
-		(at 158.75 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c024f35-e528-4b9f-8d2b-14a5059f45e0")
 	)
 	(junction
 		(at 214.63 25.4)
@@ -6672,12 +7074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "853de7c1-be84-4a9f-a60f-63ffa03b1490")
-	)
-	(junction
-		(at 166.37 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c98de4c-9b8b-43ec-9f97-8d3b5573f9b6")
 	)
 	(junction
 		(at 59.69 154.94)
@@ -6773,16 +7169,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 50.8) (xy 166.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006844d6-bb5e-499d-a152-6118103c6818")
-	)
-	(wire
-		(pts
 			(xy 68.58 166.37) (xy 68.58 165.1)
 		)
 		(stroke
@@ -6860,16 +7246,6 @@
 			(type default)
 		)
 		(uuid "06258d3b-bdd0-49fb-8152-e9e3057798de")
-	)
-	(wire
-		(pts
-			(xy 166.37 29.21) (xy 166.37 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c95246-1abd-42bc-b022-20d321847116")
 	)
 	(wire
 		(pts
@@ -7403,7 +7779,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 62.23) (xy 158.75 62.23)
+			(xy 146.05 62.23) (xy 166.37 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7453,7 +7829,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 40.64) (xy 166.37 40.64)
+			(xy 153.67 40.64) (xy 172.72 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7560,16 +7936,6 @@
 			(type default)
 		)
 		(uuid "4745e4bb-dc4c-4c7e-ab80-87fe81a938c2")
-	)
-	(wire
-		(pts
-			(xy 166.37 39.37) (xy 166.37 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47bc496b-0110-474a-8304-a309a477f28c")
 	)
 	(wire
 		(pts
@@ -7793,16 +8159,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 50.8) (xy 158.75 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55c3f056-551c-41bb-bc2c-1dc1ef08b120")
-	)
-	(wire
-		(pts
 			(xy 180.34 146.05) (xy 180.34 139.7)
 		)
 		(stroke
@@ -7850,16 +8206,6 @@
 			(type default)
 		)
 		(uuid "5d464fe5-0e15-4bc7-8a61-ba211e274f6b")
-	)
-	(wire
-		(pts
-			(xy 153.67 29.21) (xy 166.37 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d6ff00d-b3b1-4a87-98cf-f342623c6a69")
 	)
 	(wire
 		(pts
@@ -8243,16 +8589,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 166.37 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8984aa67-b567-41c5-bb4b-672c59a51afd")
-	)
-	(wire
-		(pts
 			(xy 185.42 78.74) (xy 185.42 76.2)
 		)
 		(stroke
@@ -8543,7 +8879,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 50.8) (xy 158.75 50.8)
+			(xy 146.05 50.8) (xy 166.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8823,16 +9159,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 40.64) (xy 172.72 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd6799f5-a04d-4808-8da7-1997c613dc3c")
-	)
-	(wire
-		(pts
 			(xy 76.2 154.94) (xy 80.01 154.94)
 		)
 		(stroke
@@ -8950,16 +9276,6 @@
 			(type default)
 		)
 		(uuid "e01bea8c-0c59-43ee-83cb-d70520a7d934")
-	)
-	(wire
-		(pts
-			(xy 158.75 60.96) (xy 158.75 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a1d78f-1b29-4213-a8f8-328789f6a009")
 	)
 	(wire
 		(pts
@@ -9193,7 +9509,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 29.21) (xy 172.72 29.21)
+			(xy 153.67 29.21) (xy 172.72 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10115,82 +10431,6 @@
 			(project ""
 				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV6001DCK")
-		(at 121.92 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0564fd35-5dba-45b2-b864-3d6632b9eb1a")
-		(property "Reference" "U4"
-			(at 135.89 78.6698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV991AILT"
-			(at 135.89 81.2098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier,"
-			(at 121.92 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ebc181d-790c-4f40-8ee0-e898a9aec320")
-		)
-		(pin "4"
-			(uuid "9a1d3a95-eeb0-4f89-beb0-f0c76408e19a")
-		)
-		(pin "5"
-			(uuid "195b3e0d-0f68-445c-a60e-d00f054f5b65")
-		)
-		(pin "3"
-			(uuid "168de3a1-5a25-4c15-ab41-5299528485be")
-		)
-		(pin "2"
-			(uuid "b3981c05-2f37-4b46-bfa3-dfa5fae102d7")
-		)
-		(instances
-			(project "AUPWSW"
-				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12045,15 +12285,15 @@
 				)
 			)
 		)
-		(property "Value" "20p"
-			(at 139.7 57.404 90)
+		(property "Value" "6p"
+			(at 139.7 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.89 63.1952 0)
 			(effects
 				(font
@@ -12387,7 +12627,7 @@
 				)
 			)
 		)
-		(property "Value" "20p"
+		(property "Value" "6p"
 			(at 139.7 45.974 90)
 			(effects
 				(font
@@ -12395,7 +12635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.89 51.7652 0)
 			(effects
 				(font
@@ -12499,6 +12739,94 @@
 				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
 					(reference "#PWR071")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CurrentSensingCircuitLib:TSV992IDT")
+		(at 119.38 90.17 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46cad203-b1f1-4c4f-9175-813d308a70ed")
+		(property "Reference" "U6"
+			(at 117.602 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TSV991AILT"
+			(at 132.08 81.2098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CurrentSensingCircuitLib:SOIC127P600X175-8N"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e0f754e6-0a97-43d0-beeb-66347e39a6db")
+		)
+		(pin "4"
+			(uuid "2d8fee17-7aa2-42eb-aae0-6ef8a85a91a9")
+		)
+		(pin "3"
+			(uuid "45c996cb-c548-46b6-8a04-d8e4ddd5b8b5")
+		)
+		(pin "8"
+			(uuid "86267714-4da2-415b-b233-f700b8dac092")
+		)
+		(pin "2"
+			(uuid "ddbe8e13-3311-4d3a-9f31-efda56a5479a")
+		)
+		(pin "1"
+			(uuid "5184db58-7982-4037-935b-bb936a910ffc")
+		)
+		(pin "7"
+			(uuid "066c3639-ec01-4de8-9c69-d263e3fbbc68")
+		)
+		(pin "5"
+			(uuid "c338e44f-8cef-4bf8-ab09-4ae0a44a41f5")
+		)
+		(instances
+			(project ""
+				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
+					(reference "U6")
+					(unit 2)
 				)
 			)
 		)
@@ -12641,82 +12969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TLV6001DCK")
-		(at 67.31 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b8e159d-a1f7-4440-a631-7532b2faef09")
-		(property "Reference" "U2"
-			(at 81.28 81.2098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV991AILT"
-			(at 81.28 83.7498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier,"
-			(at 67.31 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a017c15-f51b-407d-af2e-11495370e5a1")
-		)
-		(pin "4"
-			(uuid "63f5d99a-a3b2-4d96-ad39-e796618a883a")
-		)
-		(pin "5"
-			(uuid "4e950c32-e6a1-4b9e-b0b5-89af151c48db")
-		)
-		(pin "3"
-			(uuid "6b68f9f3-f821-4ccb-96ab-86a79a65006e")
-		)
-		(pin "2"
-			(uuid "311208cd-e3c5-42e9-af3c-3dd798b7f565")
-		)
-		(instances
-			(project "AUPWSW"
-				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 20.32 177.8 0)
 		(unit 1)
@@ -12807,7 +13059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CurrentSensingCircuitLib:USB3080-30-00-A"
 			(at 24.13 161.29 0)
 			(effects
 				(font
@@ -12878,7 +13130,7 @@
 				)
 			)
 		)
-		(property "Value" "20p"
+		(property "Value" "10p"
 			(at 147.32 24.384 90)
 			(effects
 				(font
@@ -12886,7 +13138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.51 30.1752 0)
 			(effects
 				(font
@@ -13286,7 +13538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CurrentSensingCircuitLib:TL3305BF160QG"
 			(at 128.27 171.45 0)
 			(effects
 				(font
@@ -13354,7 +13606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CurrentSensingCircuitLib:1806WSMD"
 			(at 96.52 83.82 0)
 			(effects
 				(font
@@ -14546,76 +14798,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7514cb68-f010-4ae9-8238-023fcae7040c")
-		(property "Reference" "R22"
-			(at 168.91 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 168.91 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 168.148 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3785900-d32f-4745-8bbd-bee56db42044")
-		)
-		(pin "2"
-			(uuid "e6bc9953-663c-4da2-a323-2e2a7ee76837")
-		)
-		(instances
-			(project "AUPWSW"
-				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 240.03 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14849,7 +15031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CurrentSensingCircuitLib:ABS2532768KHZT"
 			(at 146.05 55.88 0)
 			(effects
 				(font
@@ -15656,7 +15838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CurrentSensingCircuitLib:1806WSMD"
 			(at 22.86 90.17 0)
 			(effects
 				(font
@@ -16265,7 +16447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CurrentSensingCircuitLib:1806WSMD"
 			(at 45.72 86.36 0)
 			(effects
 				(font
@@ -16389,22 +16571,22 @@
 		(dnp no)
 		(uuid "9c4c21d9-24c5-4bb5-9811-19cfa98d3e06")
 		(property "Reference" "C12"
-			(at 146.812 34.798 90)
+			(at 147.32 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "20p"
-			(at 147.32 35.814 90)
+		(property "Value" "10p"
+			(at 147.574 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.51 41.6052 0)
 			(effects
 				(font
@@ -17033,6 +17215,95 @@
 		)
 	)
 	(symbol
+		(lib_name "TSV992IDT_1")
+		(lib_id "CurrentSensingCircuitLib:TSV992IDT")
+		(at 64.77 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b032e3d9-4385-4bde-91a3-221991dfcc2f")
+		(property "Reference" "U6"
+			(at 62.992 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TSV991AILT"
+			(at 77.47 83.7498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CurrentSensingCircuitLib:SOIC127P600X175-8N"
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e0f754e6-0a97-43d0-beeb-66347e39a6db")
+		)
+		(pin "4"
+			(uuid "2d8fee17-7aa2-42eb-aae0-6ef8a85a91a9")
+		)
+		(pin "3"
+			(uuid "45c996cb-c548-46b6-8a04-d8e4ddd5b8b5")
+		)
+		(pin "8"
+			(uuid "86267714-4da2-415b-b233-f700b8dac092")
+		)
+		(pin "2"
+			(uuid "ddbe8e13-3311-4d3a-9f31-efda56a5479a")
+		)
+		(pin "1"
+			(uuid "5184db58-7982-4037-935b-bb936a910ffc")
+		)
+		(pin "7"
+			(uuid "066c3639-ec01-4de8-9c69-d263e3fbbc68")
+		)
+		(pin "5"
+			(uuid "c338e44f-8cef-4bf8-ab09-4ae0a44a41f5")
+		)
+		(instances
+			(project ""
+				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 161.29 0)
 		(unit 1)
@@ -17165,72 +17436,6 @@
 			(project "AUPWSW"
 				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 121.92 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b411a792-fa5b-4d6a-9c04-6f627e312f1e")
-		(property "Reference" "#PWR024"
-			(at 121.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68d0c35d-e7d5-4b4f-8973-867235dd8448")
-		)
-		(instances
-			(project ""
-				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18066,7 +18271,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1129-3.3_SOT223"
+		(property "Value" "LD1117ADT33TR"
 			(at 68.58 151.13 0)
 			(effects
 				(font
@@ -18074,7 +18279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "CurrentSensingCircuitLib:TO228P972X240-3N"
 			(at 68.58 149.225 0)
 			(effects
 				(font
@@ -18599,74 +18804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 121.92 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d369e4a5-a9f9-4672-be82-9cfe2ed92cc9")
-		(property "Reference" "#PWR06"
-			(at 121.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 93.9801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "849e9a72-41c8-40cf-acd5-ec37cf626634")
-		)
-		(instances
-			(project "AUPWSW"
-				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TLV6001DCK")
 		(at 86.36 34.29 0)
 		(unit 1)
@@ -18803,76 +18940,6 @@
 			(project "AUPWSW"
 				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d508ecd5-18b4-42d6-b6ea-37b0f2f1141b")
-		(property "Reference" "R23"
-			(at 161.29 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 161.29 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 160.528 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27d651a6-83e4-436c-a611-d890dcbdc124")
-		)
-		(pin "2"
-			(uuid "03548e93-850a-49b1-971f-640f60b95164")
-		)
-		(instances
-			(project "AUPWSW"
-				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -19512,7 +19579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CurrentSensingCircuitLib:HC49SSDLF800MHZ"
 			(at 153.67 34.29 0)
 			(effects
 				(font
