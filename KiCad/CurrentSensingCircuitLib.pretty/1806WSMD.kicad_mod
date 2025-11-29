@@ -55,45 +55,16 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -2.6 -3.25)
-		(end 6 -3.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "dc7b6fae-01eb-4194-a7de-3fc4b5ba2b91")
-	)
-	(fp_line
-		(start -2.6 4)
-		(end -2.6 -3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "c4f1721b-9816-4b25-a575-8bf4c6c445d2")
-	)
-	(fp_line
-		(start 6 -3.25)
+	(fp_rect
+		(start -2.6 -3.3)
 		(end 6 4)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "151ec628-b627-4347-b842-b99f29dd2750")
-	)
-	(fp_line
-		(start 6 4)
-		(end -2.6 4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "5a14fcaa-7cee-4e08-b4ea-7cba638afdf0")
+		(uuid "55684af6-832c-4b84-903d-26bbb885ccde")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
