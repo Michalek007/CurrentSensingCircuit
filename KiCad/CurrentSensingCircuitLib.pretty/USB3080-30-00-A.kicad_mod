@@ -240,14 +240,14 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -2 -2.45)
-		(size 0.6 0.6)
+		(size 0.55 0.55)
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(uuid "7cf30570-ca56-4ff2-b063-91c3af5a4bf9")
 	)
 	(pad "" np_thru_hole circle
 		(at 2 -2.45)
-		(size 0.6 0.6)
+		(size 0.55 0.55)
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(uuid "6f4107af-85c8-4372-acc3-3072b1d3beca")
@@ -313,4 +313,15 @@
 		(uuid "d4f84a10-27ce-4efa-9c7b-28ef4cfb3c51")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/CurrentSensingCircuitLib.3dshapes/USB3080-30-00-A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
