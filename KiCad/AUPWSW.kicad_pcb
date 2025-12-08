@@ -135,9 +135,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -18588,7 +18588,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 190 51 0)
+		(at 190.373 51 0)
 		(layer "F.SilkS")
 		(uuid "21cdc433-9293-48e9-8d0f-eee247253af0")
 		(effects
@@ -18708,8 +18708,8 @@
 			)
 		)
 	)
-	(gr_text "G"
-		(at 107.4 51.4 0)
+	(gr_text "GND"
+		(at 107.061 51.4 0)
 		(layer "F.SilkS")
 		(uuid "53642233-d2f4-4aac-830d-1790f052a38b")
 		(effects
@@ -19061,7 +19061,7 @@
 		)
 	)
 	(gr_text "3.3VA"
-		(at 110.8 51.4 0)
+		(at 110.871 51.4 0)
 		(layer "F.SilkS")
 		(uuid "ebf794f6-959c-42ff-a244-95af734bf0fa")
 		(effects
