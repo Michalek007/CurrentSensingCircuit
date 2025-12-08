@@ -2055,6 +2055,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -6815,6 +6922,12 @@
 		(uuid "1573f398-b656-46cc-bee2-bf61042381d3")
 	)
 	(junction
+		(at 62.23 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d6488b1-ea5e-4660-b8e2-28ad9c5c1128")
+	)
+	(junction
 		(at 91.44 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7586,6 +7699,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 31.75) (xy 107.95 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aa0285-4016-49d0-a871-74408cc95dcd")
+	)
+	(wire
+		(pts
 			(xy 80.01 162.56) (xy 80.01 165.1)
 		)
 		(stroke
@@ -7946,6 +8069,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 39.37) (xy 64.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddabf1d-8510-4bb7-b039-819238d19749")
+	)
+	(wire
+		(pts
 			(xy 143.51 62.23) (xy 146.05 62.23)
 		)
 		(stroke
@@ -8053,6 +8186,16 @@
 			(type default)
 		)
 		(uuid "82bee56d-86d6-4199-8bcc-c6e333fdf100")
+	)
+	(wire
+		(pts
+			(xy 62.23 39.37) (xy 62.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fa6285-dbcc-422a-9e76-5d5bc261a37b")
 	)
 	(wire
 		(pts
@@ -8306,7 +8449,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 39.37) (xy 64.77 39.37)
+			(xy 59.69 39.37) (xy 62.23 39.37)
 		)
 		(stroke
 			(width 0)
@@ -15436,7 +15579,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 36.83 53.34 90)
+		(at 36.83 43.18 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15445,7 +15589,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aded4e5-1311-43ea-8d3e-15deba995215")
 		(property "Reference" "J2"
-			(at 39.37 50.7999 90)
+			(at 39.37 45.7201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15454,7 +15598,7 @@
 			)
 		)
 		(property "Value" "Conn_02x01"
-			(at 39.37 53.3399 90)
+			(at 39.37 43.1801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15463,7 +15607,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 36.83 53.34 0)
+			(at 36.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15472,7 +15616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 53.34 0)
+			(at 36.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15481,7 +15625,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 53.34 0)
+			(at 36.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15499,6 +15643,73 @@
 			(project ""
 				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c8ca246-fb36-4f5c-9a4c-b98f3e0bfe93")
+		(property "Reference" "TP1"
+			(at 110.49 27.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 29.7179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CurrentSensingCircuitLib:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 113.03 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7bdcac0-b158-4a1d-a0e7-893baa49f68f")
+		)
+		(instances
+			(project ""
+				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15766,6 +15977,73 @@
 			(project "AUPWSW"
 				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d53abb-d6ec-4512-bd47-a6e3d3c39d84")
+		(property "Reference" "TP2"
+			(at 64.77 43.9419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 64.77 46.4819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CurrentSensingCircuitLib:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59c62825-93af-4816-826d-bb10e73da4e5")
+		)
+		(instances
+			(project ""
+				(path "/62d9b009-947e-4984-b6c3-32a696d12b75"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -19794,7 +20072,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 41.91 0)
+		(at 36.83 54.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19803,7 +20082,7 @@
 		(fields_autoplaced yes)
 		(uuid "e86e7c87-053d-4554-b2f7-3e9896392856")
 		(property "Reference" "R2"
-			(at 39.37 40.6399 0)
+			(at 39.37 55.8801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19812,7 +20091,7 @@
 			)
 		)
 		(property "Value" "10M"
-			(at 39.37 43.1799 0)
+			(at 39.37 53.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,7 +20100,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 35.052 41.91 90)
+			(at 35.052 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19830,7 +20109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 41.91 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19839,7 +20118,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 41.91 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
