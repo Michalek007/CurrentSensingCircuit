@@ -10762,6 +10762,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 140.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "71ac6bd0-9da7-4871-91c8-9a93d1ae7d46")
 		)
@@ -10847,6 +10856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "163f78a7-b24e-4ec3-b9a3-0a4d22fdee42")
 		)
@@ -10920,6 +10938,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
+			(at 74.93 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11128,6 +11155,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 22.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "757a4acf-6633-4b60-b18a-f4a4ff7e1ae9")
 		)
@@ -11255,6 +11291,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 29.21 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -11399,6 +11444,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 146.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7deffaa7-5ee0-41ba-92fe-080a452b148f")
 		)
@@ -11526,6 +11580,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 217.17 140.97 0)
 			(effects
 				(font
@@ -11670,6 +11733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1476e5e7-b81c-4b50-b2ce-b89353b01105")
 		)
@@ -11731,6 +11803,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 260.35 91.44 0)
 			(effects
 				(font
@@ -11943,6 +12024,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 273.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150080VS75000?qs=LlUlMxKIyB0tGHJmO6%2B0ug%3D%3D"
+			(at 273.05 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12215,6 +12305,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 87.63 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a7b1ed03-f133-44e9-879f-ced70af50634")
 		)
@@ -12287,6 +12386,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150080VS75000?qs=LlUlMxKIyB0tGHJmO6%2B0ug%3D%3D"
+			(at 247.65 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,6 +12529,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
+			(at 100.33 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12825,6 +12942,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 139.7 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d0570e1-794a-4be7-b7ea-34973732061f")
 		)
@@ -12887,6 +13013,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
+			(at 55.88 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12964,6 +13099,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 262.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b5123cf-9a88-4c8d-a6b3-b99fd471fa36")
 		)
@@ -13026,6 +13170,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 262.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/eee1ha100war/kondensatory-elektrolityczne-smd/panasonic/"
 			(at 262.89 133.35 0)
 			(effects
 				(font
@@ -13167,6 +13320,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 139.7 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "baa398d3-f818-40df-9855-96da9e8e7f69")
 		)
@@ -13229,6 +13391,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/tsv992idt/wzmacniacze-operacyjne-smd/stmicroelectronics/"
 			(at 119.38 90.17 0)
 			(effects
 				(font
@@ -13323,6 +13494,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "https://www.tme.eu/pl/details/blm21bb050sn1d/ferryty-koraliki/murata/"
+			(at 259.08 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38dd58b6-f7b5-41c8-ab1f-8ef07ca86cff")
 		)
@@ -13385,6 +13565,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 85.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
+			(at 85.09 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,6 +13714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/GCT/USB3080-30-00-A?qs=KUoIvG%2F9IlZDMJJTQkXE0A%3D%3D"
+			(at 20.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "235851b9-de0e-4c1c-b08b-ba93c5d3d03c")
 		)
@@ -13597,6 +13795,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
+			(at 147.32 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13730,6 +13937,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 17.78 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 17.78 173.99 0)
 			(effects
 				(font
@@ -14003,6 +14219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/E-Switch/TL3305BF100QG?qs=IKkN%2F947nfDIPwqPQja%2BvQ%3D%3D"
+			(at 133.35 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42dff3be-2b8a-4a18-8263-d97c41a47d31")
 		)
@@ -14064,6 +14289,15 @@
 		)
 		(property "Description" "Potentiometer"
 			(at 96.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1806wsmd-10k/potencjometry-smd-wieloobrotowe/sr-passives/"
+			(at 96.52 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14143,6 +14377,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 109.22 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d39a1836-1ce8-4147-a63a-1f6fc9536ce0")
 		)
@@ -14204,6 +14447,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 91.44 158.75 0)
 			(effects
 				(font
@@ -14482,6 +14734,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75aba9be-496e-4b5b-ba9c-cfa7849f9496")
 		)
@@ -14610,6 +14871,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 116.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 116.84 39.37 0)
 			(effects
 				(font
@@ -15017,6 +15287,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 236.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4180d9d2-5bd8-4b4c-9398-a1a6ececab72")
 		)
@@ -15077,6 +15356,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 240.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
+			(at 240.03 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15153,6 +15441,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 210.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b90cc612-9fc8-46b5-a700-50d0739c752d")
 		)
@@ -15220,6 +15517,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 240.03 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c064bc0-20ba-43e2-9f2e-0fab783cf997")
 		)
@@ -15280,6 +15586,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 175.26 134.62 0)
 			(effects
 				(font
@@ -15361,6 +15676,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 152.4 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "987fff97-1e87-4f31-bcef-d7bea6c49010")
 		)
@@ -15394,7 +15718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8M"
+		(property "Value" "ABS25-32.768KHZ-6-T"
 			(at 148.59 57.658 90)
 			(effects
 				(font
@@ -15423,6 +15747,15 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/ABRACON/ABS25-32.768KHZ-6-T?qs=wl%2FhatdkTudHMJeSjMoOzg%3D%3D"
+			(at 146.05 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15633,6 +15966,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 36.83 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7524829f-007a-4c6d-b59c-88c6a825e1fb")
 		)
@@ -15695,6 +16037,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 107.95 31.75 0)
 			(effects
 				(font
@@ -15901,6 +16252,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "https://www.tme.eu/pl/details/eee0ja101sp/kondensatory-elektrolityczne-smd/panasonic/"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3fe44d96-1cc4-4c28-8beb-bf6bca672e9d")
 		)
@@ -16037,6 +16397,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59c62825-93af-4816-826d-bb10e73da4e5")
 		)
@@ -16159,6 +16528,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x18, script generated"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 162.56 85.09 0)
 			(effects
 				(font
@@ -16414,6 +16792,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 189.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "42ebecae-0aa3-4bfe-ad21-fe0de1f7eb3e")
 		)
@@ -16555,6 +16942,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 123.19 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd5abc29-26b2-44ba-87e3-b6afba8ad326")
 		)
@@ -16616,6 +17012,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 22.86 78.74 0)
 			(effects
 				(font
@@ -16686,6 +17091,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 22.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1806wsmd-10k/potencjometry-smd-wieloobrotowe/sr-passives/"
 			(at 22.86 90.17 0)
 			(effects
 				(font
@@ -16832,6 +17246,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d69f6246-ca3c-494f-b904-c7bbd7c03611")
 		)
@@ -16893,6 +17316,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 146.05 149.86 0)
 			(effects
 				(font
@@ -17169,6 +17601,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 273.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "757b7be8-ff8e-418d-abfb-29d3db5136db")
 		)
@@ -17229,6 +17670,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 26.67 132.08 0)
 			(effects
 				(font
@@ -17437,6 +17887,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1806wsmd-10k/potencjometry-smd-wieloobrotowe/sr-passives/"
+			(at 45.72 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b8b34075-d6dc-4adb-824a-b7ce3d358324")
 		)
@@ -17502,6 +17961,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
+			(at 69.85 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17576,6 +18044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 147.32 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e55920c9-417d-4a4e-bbd3-92c899f4064c")
 		)
@@ -17636,6 +18113,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 15.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 15.24 46.99 0)
 			(effects
 				(font
@@ -17839,6 +18325,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 111.76 158.75 0)
 			(effects
 				(font
@@ -18116,6 +18611,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "https://www.tme.eu/pl/details/tsv992idt/wzmacniacze-operacyjne-smd/stmicroelectronics/"
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e0f754e6-0a97-43d0-beeb-66347e39a6dc")
 		)
@@ -18203,6 +18707,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 133.35 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e88e9ef-d47b-435c-bf47-101d05d4ab18")
 		)
@@ -18264,6 +18777,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 242.57 140.97 0)
 			(effects
 				(font
@@ -18341,6 +18863,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c35b3b6-828b-4655-9090-e3fbe6490401")
 		)
@@ -18404,6 +18935,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 214.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/STMicroelectronics/STM32F103C8T6?qs=bhCVus9SdFtq6kqxsU5%2FDA%3D%3D"
 			(at 214.63 66.04 0)
 			(effects
 				(font
@@ -18685,6 +19225,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87cdaac1-d4d3-439b-9eb8-a02aa1431d0e")
 		)
@@ -18747,6 +19296,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 29.21 30.48 0)
 			(effects
 				(font
@@ -18824,6 +19382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 273.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b7fc03a-f0e9-4ad4-ba8c-a5b7071e8ddd")
 		)
@@ -18885,6 +19452,15 @@
 			)
 		)
 		(property "Description" "700mA Micropower Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/STMicroelectronics/LD1117ADT33TR?qs=sSwyxX0Tv9fVzC5UBogSJA%3D%3D"
 			(at 80.01 154.94 0)
 			(effects
 				(font
@@ -18968,6 +19544,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 260.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150080VS75000?qs=LlUlMxKIyB0tGHJmO6%2B0ug%3D%3D"
+			(at 260.35 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19242,6 +19827,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 204.47 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "554b46f5-ea7e-41fd-8045-f32196b94e85")
 		)
@@ -19433,6 +20027,15 @@
 			)
 		)
 		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/Texas-Instruments/TLV6001IDCKT?qs=8%2Br4Hz5Xir80VprMUL7yYQ%3D%3D&srsltid=AfmBOoogLKcxsCHd2M16mijtyYIf1jFhszR8VflzMI9c2OG9ukO7rgD7"
 			(at 86.36 34.29 0)
 			(effects
 				(font
@@ -19649,6 +20252,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cafc78dc-06c7-46b8-8fd8-9b50dc8982d9")
 		)
@@ -19850,6 +20462,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "https://www.tme.eu/pl/details/eee0ja101sp/kondensatory-elektrolityczne-smd/panasonic/"
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65fdc853-ef22-442a-b547-670d42c5bd02")
 		)
@@ -19912,6 +20533,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 107.95 38.1 0)
 			(effects
 				(font
@@ -20055,6 +20685,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "23ec7620-fc10-4b6e-9705-0970baba1dea")
 		)
@@ -20126,6 +20765,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d9d7eef-182a-4db1-8d73-84ed8fd8461f")
 		)
@@ -20159,7 +20807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8M"
+		(property "Value" "HC49SSDLF-8.00MHz"
 			(at 156.21 36.068 90)
 			(effects
 				(font
@@ -20188,6 +20836,15 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 153.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.mouser.pl/ProductDetail/Fox-Abracon/HC49SSDLF-8.00MHz?qs=zaGjUjd0x6SXDLEDwyM52Q%3D%3D"
+			(at 153.67 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20328,6 +20985,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 132.08 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "991388ca-b762-4ee3-af81-44973f8e1627")
 		)
@@ -20398,6 +21064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sklep" "~"
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f84dd58-b513-4ae6-8600-8d27cf752871")
 		)
@@ -20457,6 +21132,15 @@
 			)
 		)
 		(property "Description" "Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, VSSOP-8"
+			(at 57.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://eu.mouser.com/ProductDetail/Texas-Instruments/INA333AIDGKT?qs=nJRxFdq%2BlvZ5bYTj9kAspw%3D%3D"
 			(at 57.15 31.75 0)
 			(effects
 				(font
@@ -20609,6 +21293,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated"
+			(at 275.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 275.59 35.56 0)
 			(effects
 				(font
@@ -20977,6 +21670,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "~"
 			(at 91.44 170.18 0)
 			(effects
 				(font
