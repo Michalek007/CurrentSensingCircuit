@@ -111,9 +111,6 @@ int main(void) {
 	MX_ADC1_Init();
 	MX_USART1_UART_Init();
 	/* USER CODE BEGIN 2 */
-//	printf("Init done!\n");
-//	HAL_StatusTypeDef x = HAL_UART_Transmit_DMA(&huart1, uartTxBuffer, UART_TX_BUF_LEN);
-//	x;
 	HAL_ADC_Start_DMA(&hadc1, (uint32_t*) adcBuffer, ADC_BUF_LEN);
 	/* USER CODE END 2 */
 
