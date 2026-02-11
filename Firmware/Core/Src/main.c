@@ -111,6 +111,8 @@ int main(void) {
 	MX_ADC1_Init();
 	MX_USART1_UART_Init();
 	/* USER CODE BEGIN 2 */
+	HAL_ADCEx_Calibration_Start(&hadc1);
+	HAL_Delay(1000);
 	HAL_ADC_Start_DMA(&hadc1, (uint32_t*) adcBuffer, ADC_BUF_LEN);
 	/* USER CODE END 2 */
 
