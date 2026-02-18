@@ -6,7 +6,10 @@
             (amp1.up) to[short, -o] ++ (0, 0.5) node[above]{$3.3\ V$}
             (amp1.down) node[ground]{}
             % (amp1.-) -| ++ (-0.5, 2) to[R, l=$R_2$, a=$100\ k\Omega$] ++ (2.88, 0) -- ++ (0, -2.5)
-            (amp1.out) -- ++ (0, 2.5) to[R, l=$R_4$, a=$100\ k\Omega$] ++ (-2.5, 0) |- (amp1.-)
+            (amp1.out) -- ++ (0, 2.5) to[R, l=$R_4$, a=$100\ k\Omega$, *-*] ++ (-2.5, 0) |- (amp1.-)
+
+            (amp1.out) -- ++ (0, 4.5) to[C, l=$C_3$, a=$1\ \mu F$] ++ (-2.5, 0) |- (amp1.-)
+
             (amp1.-) to[short, -*] ++ (-0.12, 0)
             (amp1.out) to[short, *-o] ++ (1, 0) node[above]{$V_{REF+N}$}
             (amp1.-) to[C, l=$C_1$, a=$220\ nF$] ++ (-2, 0) to[R, l=$R_3$, a=$10\ k\Omega$, -*] ++ (-2, 0) ++ (-1.19, 0) node[op amp](amp2){}

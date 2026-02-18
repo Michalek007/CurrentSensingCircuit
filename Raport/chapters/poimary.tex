@@ -1,0 +1,69 @@
+\section{Pomiary}
+    Podczas pomiarów wystąpiły problemy z rozkładem prawdopodobieństwa szumu - była widoczna asymetria powodowana 
+    przez układ zasilania - LDO. Asymetria była zależna od natężenia i polaryzacji prądu. 
+    Rozwiązaniem było zastosowanie zasilacza laboratoryjnego - szum był Gaussowski, do puki 
+    zasilacz się nie nagrzał - potem rozkład nieco się zniekształcił, ale znacznie mniej niż w przypadku LDO. 
+    Rozkłady prawdopodobieństwa dla kilku pomiarów przedstawiono na rysunkach \ref{fig:I0_LDO_hist} - \ref{fig:I75_zas_hist}. 
+    Przebiegi czasowe dla wybranych pomiarów przedstawiono na rysunkach \ref{fig:I75_LDO} - \ref{fig:I75_zas}. 
+    Dodatkowa filtracja pozwala uzyskać dokładniejsze wyniki, co zostało przedstawione na rysunku \ref{fig:I75_zas_filtered}. 
+    Dodatkowym utrudnieniem w przeprowadzaniu pomiarów było występowanie zewnętrznych zakłóceń, co powodowało 
+    chwilowe zmiany napięcia wejściowego przetwornika ADC, oraz wprowadzało zniekształcenie w histogramie. 
+
+    Zastosowany algorytm oblicza sumę 16 próbek, a następnie dzieli wynik przez 4, co pozwala zapisać wynik na 14 bitach zamiast 12. 
+    Tak przygotowane dane są przesyłane do komputera przez UART. 
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = 0.8\textwidth]{R0_stlink_hist.png}
+        \caption{Rozkład prawdopodobieństwa szumu dla prądu $0\ \mu A$ przy zasilaniu z LDO.}
+        \label{fig:I0_LDO_hist}
+    \end{figure}
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = 0.8\textwidth]{R44k_reverse_hist.png}
+        \caption{Rozkład prawdopodobieństwa szumu dla prądu $-75\ \mu A$ przy zasilaniu z LDO - odwrócona polaryzacja.}
+        \label{fig:I75_LDO_hist}
+    \end{figure}
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = 0.8\textwidth]{R200k_hist.png}
+        \caption{Rozkład prawdopodobieństwa szumu dla prądu $16\ \mu A$ przy zasilaniu z LDO.}
+        \label{fig:I16_LDO_hist}
+    \end{figure}
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = 0.8\textwidth]{R0_z_hist.png}
+        \caption{Rozkład prawdopodobieństwa szumu dla prądu $0\ \mu A$ przy zasilaniu z zasilacza laboratoryjnego.}
+        \label{fig:I0_zas_hist}
+    \end{figure}
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = 0.8\textwidth]{R44k_z_hist.png}
+        \caption{Rozkład prawdopodobieństwa szumu dla prądu $-75\ \mu A$ przy zasilaniu z zasilacza laboratoryjnego.}
+        \label{fig:I75_zas_hist}
+    \end{figure}
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = 0.8\textwidth]{R44k_reverse_current.png}
+        \caption{Przebieg zmierzonego prądu $-75\ \mu A$ przy zasilaniu z LDO - widoczne obcięcie górnych wartości szumu.}
+        \label{fig:I75_LDO}
+    \end{figure}
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = 0.8\textwidth]{R44k_z_current.png}
+        \caption{Przebieg zmierzonego prądu $-75\ \mu A$ przy zasilaniu z zasilacza.}
+        \label{fig:I75_zas}
+    \end{figure}
+
+    \clearpage
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width = 0.8\textwidth]{R44k_z_current_filtered.png}
+        \caption{Przebieg prądu $-75\ \mu A$ po filtracji przy zasilaniu z zasilacza.}
+        \label{fig:I75_zas_filtered}
+    \end{figure}

@@ -1,4 +1,17 @@
 \section{Schematy ideowe układu}
+    Poniżej przedstawiono schematy części analogowej układu. Podczas pomiarów okazało się, że szum INA333 jest 
+    znacznie większy od szumu generowanego przez generator szumu. W związku z tym, zredukowano szum generowany przez 
+    generator szumu oraz zmniejszono wzmocnienie INA333 z $Ku = 10000\ \frac{V}{V}$ do $Ku = 100\ \frac{V}{V}$. 
+    Modyfikacja wiązała się z wlutowaniem kondensatora o wartości $1\ \mu F$ w sprzężenie zwrotne wyjściowego 
+    wzmacniacza generatora szumu, co dało obcięcie pasma do około $100\ Hz$, oraz zmiana rezystora ustalającego 
+    wzmocnienie z $10\ \Omega$ do $1\ k\Omega$. Wprowadzone modyfikacje pozwoliły zmniejszyć szum do około 
+    $1 \div 2$ LSB. Schemat wzmacniacza pomiarowego przedstawiono na rysunku \ref{sch:INA333}, a generatora 
+    szumu na rysunku \ref{sch:Vref_gen}. 
+    Wyjście INA333 podłączono do filtra anty-aliasing'owego, który został przedstawiony na rysunku \ref{sch:LPF}.
+    Rezystor $R_4$ zgodnie z dokumentacją zastosowanego wzmacniacza pozwala zmniejszyć wpływ obciążenia pojemnościowego na wzmacniacz, 
+    ale wprowadza tłumienie sygnału, dlatego zamiast wtórnika zastosowano wzmacniacz w konfiguracji nieodwracającej o niewielkim 
+    wzmocnieniu.
+    Parametry robocze układu przedstawiono w tabeli \ref{tab:params}.
     \begin{figure}[!ht]
         \centering
         \scalebox{1}{\input{../Dokumentacja/schematics/wzmacniacz_pomiarowy.tex}}
@@ -36,9 +49,30 @@
     %     \caption{Układ sumacyjny dla dodania sygnału pomiarowego i szumu.}
     %     \label{sch:sumator}
     % \end{figure}
-    \begin{figure}[!ht]
+    % \begin{figure}[!ht]
+    %     \centering
+    %     \scalebox{1}{\input{../Dokumentacja/schematics/PSU.tex}}
+    %     \caption{Układ stabilizacji napięcia na 3.3V. }
+    %     \label{sch:psu}
+    % \end{figure}
+
+    \begin{table}[!ht]
         \centering
-        \scalebox{1}{\input{../Dokumentacja/schematics/PSU.tex}}
-        \caption{Układ stabilizacji napięcia na 3.3V. }
-        \label{sch:psu}
-    \end{figure}
+        \begin{tabular}{|c|c|c|}\hline
+            parametr & wartość & komentarz \\\hline
+            czułość & $10\ \frac{mV}{\mu A}$ & czułość układu bez ditheringu \\\hline
+            zakres pomiarowy & $\pm 100\ \mu A$ & - \\\hline
+            zakres napięcia wspólnego & $0.7 \div 2.8\ V$ & - \\\hline
+            częstotliwość graniczna & $30\ Hz$ & ograniczenie od INA333 \\\hline
+            pasmo szumu białego & $100\ Hz \div 300\ kHz$ & \\\hline
+            napięcie szumu & $\approx 1.5\ mV$ & w paśmie $100\ Hz \div 300\ kHz$ \\\hline
+            % widmowa gęstość szumu & $\approx 1.65\ \frac{\mu V}{\sqrt{Hz}}$ & - \\\hline
+            częstotliwość próbkowania & $f_S = 300\ kHz$ & z dokumentacji STM32F103C8T6 \\\hline
+            częstotliwość nadpróbkowania & $f_{OVS} = 18.75\ kHz$ & nadpróbkowanie 16 razy \\\hline
+            dodatkowe bity & $+2$ bity & na podstawie AN5537 \\\hline
+            teoretyczna wartość mierzalnego & \multirow{2}{*}{$I_{meas} \approx 25\ nA$} & \multirow{2}{*}{jeśli nie tracimy na ENOB} \\ 
+            prądu przy ditheringu  & & \\\hline
+        \end{tabular}
+        \caption{Parametry zaprojektowanego układu do pomiaru prądu.}
+        \label{tab:params}
+    \end{table}

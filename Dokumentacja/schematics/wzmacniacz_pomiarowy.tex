@@ -3,7 +3,7 @@
     \begin{tikzpicture}
         \draw
             (0, 0) node[op amp, scale = 2](amp){} node[]{INA333}
-            (amp) ++ (-1.66, -0.5) -- ++ (-1.22, 0) to[/tikz/circuitikz/bipoles/length=30pt, R, l=$R_G$, a=$10\ \Omega$] ++ (0, 1) -- ++ (1.22, 0)
+            (amp) ++ (-1.66, -0.5) -- ++ (-1.22, 0) to[/tikz/circuitikz/bipoles/length=30pt, R, l=$R_G$, a=$1\ k\Omega$] ++ (0, 1) -- ++ (1.22, 0)
             (amp.up) to[short, -o] ++ (0, 0.5) node[above]{$3.3\ V$}
             (amp.down) node[ground]{}
             (amp.+) -- ++ (-2.75, 0) to[R, l=$R_{meas}$, a=$100\ \Omega$] ++ (0, 1.96)
